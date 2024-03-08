@@ -15,7 +15,7 @@ To install Wordcount, ensure you have Python version 3.7 or higher. You can inst
 1. Clone the repository from GitHub:
 
 ```bash
-git clone <https://github.com/AbhilashBharadwaj/wc-cli-tool>
+git clone https://github.com/AbhilashBharadwaj/wc-cli-tool
 cd wordcount
 ```
 
