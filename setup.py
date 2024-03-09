@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 with open("requirements.txt", "r", encoding="utf-16") as fh:
     requirements = fh.read()
 setup(
-    name="wordcount",
+    name="wordcount-cli-tool",
     version="0.0.1",
     author="Abhilash Sampath",
     author_email="iamabhilashsampath@gmail.com",
@@ -13,7 +13,7 @@ setup(
     description="",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="<github url where the tool code will remain>",
+    homepage="https://github.com/AbhilashBharadwaj/wc-cli-tool/",
     py_modules=["word_count", "app"],
     packages=find_packages(),
     install_requires=[requirements],
